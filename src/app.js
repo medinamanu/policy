@@ -1,9 +1,11 @@
 import HealthCheckRouter from './healthCheck/healthCheckRouter';
+import PolicyRouter from './policy/policyRouter';
 
 const App = {
     getPublicRoutes() {
         return [
-            HealthCheckRouter.getRouter()
+            HealthCheckRouter.getRouter(),
+            PolicyRouter.getRouter()
         ]
     }
 };
