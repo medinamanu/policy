@@ -12,12 +12,14 @@ Se asume por la respuesta del servicio que obtiene la info de datos para calcula
 #### Instalar dependencias
 Ejecuta `npm install` o `npm i` para instalar las dependencias del proyecto.
 
-#### Ejecutar localmente
+#### Ejecutar test
+Ejecuta `npm run test` para ejecutar los unit test e integration test.
+
+
+## Levantar y ejecutar localmente
 Ejecuta `npm start` para levantar localmente el proyecto.
 Para acceder a la aplicación puedes ir a: http://localhost:4242/policy
 
-#### Ejecutar test
-Ejecuta `npm run test` para ejecutar los unit test e integration test.
 
 ### Serverless
 No se pudo lograr la integracion con Serverless ya que pedía una cuenta en AWS la cual tuvo un problema al ser creada obteniendo el mensaje de:
